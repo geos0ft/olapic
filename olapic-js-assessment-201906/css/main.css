@@ -6,7 +6,7 @@
 }
 
 .owl-carousel .owl-stage-outer {
-	max-width:450px;
+	max-width: 1400px;
 	width:100%;
 	margin:0 auto;
 }
@@ -34,11 +34,19 @@
 	margin-top:0;
 }
 
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .owl-prev {
-	
+	left: 20px;
 }
 
 .owl-next {
+	right: 20px;
 	
 }
 
