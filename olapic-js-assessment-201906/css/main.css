@@ -42,11 +42,11 @@
 }
 
 .owl-prev {
-	left: 20px;
+	left: 0px;
 }
 
 .owl-next {
-	right: 20px;
+	right: 10px;
 	
 }
 
